@@ -3,7 +3,7 @@ module.exports = {
     title: `Developer and Code`,
     author: {
       name: `Макс Пронько`,
-      summary: `живет в Дубине и пишет о Веб разработке.`,
+      summary: `живет в Дублине и пишет о Веб разработке.`,
     },
     description: `Developer and Code - авторский блог Макса Пронько`,
     siteUrl: `https://developerandcode.com/`,

@@ -4,12 +4,13 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import DateLocale from "../components/DateLocale";
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
-
+  const postDate = DateLocale(post.frontmatter.date)
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
@@ -23,7 +24,7 @@ const BlogPostTemplate = ({ data, location }) => {
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <p>{postDate}</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}

@@ -27,6 +27,7 @@ const Bio = () => {
           }
           social {
             youtube
+            telegram
           }
         }
       }
@@ -55,9 +56,16 @@ const Bio = () => {
         <p>
           Автор <strong>{author.name}</strong> {author?.summary || null}
           {` `}
+          Видео-уроки на моем{` `}
           <a target="_blank" rel="noreferrer" href={`https://www.youtube.com/channel/${social?.youtube || ``}`}>
-            Видео-уроки на моем YouTube канале
+            YouTube
           </a>
+          {` `}канале.
+          {` `}
+          <a target="_blank" rel="noreferrer" href={`https://t.me/${social?.telegram || ``}`}>
+            Телеграм
+          </a>
+          {` `}для своих ребят.
         </p>
       )}
     </div>

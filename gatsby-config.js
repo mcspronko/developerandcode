@@ -9,7 +9,8 @@ module.exports = {
     siteUrl: `https://developerandcode.com/`,
     social: {
       twitter: `max_pronko`,
-      youtube: `UCB8LoPmC2MCVgohn_-gzU3A`
+      youtube: `UCB8LoPmC2MCVgohn_-gzU3A`,
+      telegram: `developerandcode`
     },
   },
   plugins: [

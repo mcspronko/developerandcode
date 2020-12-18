@@ -13,7 +13,7 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="Веб разработка PHP, MySQL, JavaScript" />
         <Bio />
         <p>
          Постов на этом сайте нет.
@@ -24,7 +24,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Все посты" />
+      <SEO title="Веб разработка PHP, MySQL, JavaScript" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {

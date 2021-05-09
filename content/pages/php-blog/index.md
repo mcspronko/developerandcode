@@ -23,7 +23,7 @@ description: "В этом видео-уроке, мы разберем с вам
 `youtube:https://www.youtube.com/embed/de5vsUxMp1g`
 
 ## Часть 6: Выводим список постов с базы данных
-`youtube:https://www.youtube.com/embed/de5vsUxMp1g`
+`youtube:https://www.youtube.com/embed/W-QYC_M-TAM`
 
 ## Часть 7: Latest Posts
 `youtube:https://www.youtube.com/embed/ubIN46zted0`

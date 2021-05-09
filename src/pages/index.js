@@ -26,6 +26,7 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Веб разработка PHP, MySQL, JavaScript" />
       <Bio />
+      <p>Все видео: <Link to="/php-blog">Блог на PHP</Link></p>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -72,7 +73,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+        filter: {fields: {slug: {ne: "/php-blog/"}}},
+        sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       nodes {
         excerpt
         fields {

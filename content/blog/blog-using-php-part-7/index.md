@@ -83,7 +83,7 @@ $app->get('/', function (Request $request, Response $response)
 
 Файл `public/.htaccess`:
 
-```
+```bash
 Options -Indexes
 
 <IfModule mod_php7.c>

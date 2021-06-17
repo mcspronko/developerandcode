@@ -65,7 +65,7 @@ const Bio = () => {
           <a target="_blank" rel="noreferrer" href={`https://t.me/${social?.telegram || ``}`}>
             Телеграм
           </a>
-          {` `}для своих ребят.
+          {` `}группа сайта.
         </p>
       )}
     </div>

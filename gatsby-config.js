@@ -3,7 +3,7 @@ module.exports = {
     title: `Developer and Code`,
     author: {
       name: `Макс Пронько`,
-      summary: `живет в Дублине и пишет о Веб разработке.`,
+      summary: `- CEO компании Pronko Consulting, пишет о Веб разработке.`,
     },
     description: `Developer and Code - авторский блог Макса Пронько`,
     siteUrl: `https://developerandcode.com/`,
@@ -14,6 +14,14 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -103,8 +111,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Developer and Code`,
+        short_name: `DAC`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

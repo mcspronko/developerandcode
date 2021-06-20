@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Link } from "gatsby"
 
 const NotFoundPage = ({ data, location }) => {
@@ -10,7 +10,7 @@ const NotFoundPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="404: Страница не найдена" />
+      <Seo title="404: Страница не найдена" />
       <h1>404: Страница не найдена</h1>
       <p>Такая страница не существует, или была удалена.</p>
       <p>

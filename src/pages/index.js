@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import DateLocale from "../components/DateLocale";
 
 const BlogIndex = ({ data, location }) => {
@@ -13,7 +13,7 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="Веб разработка PHP, MySQL, JavaScript" />
+        <Seo title="Веб разработка PHP, MySQL, JavaScript" />
         <Bio />
         <p>
          Постов на этом сайте нет.
@@ -24,7 +24,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Веб разработка PHP, MySQL, JavaScript" />
+      <Seo title="Веб разработка PHP, MySQL, JavaScript" />
       <Bio />
       <p>Все видео: <Link to="/php-blog">Блог на PHP</Link></p>
       <ol style={{ listStyle: `none` }}>

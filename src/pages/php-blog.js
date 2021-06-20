@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 const PHPBlogPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -11,7 +11,7 @@ const PHPBlogPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Блог на PHP - Все видеоуроки. Веб разработка PHP, MySQL, JavaScript" />
+      <Seo title="Блог на PHP - Все видеоуроки. Веб разработка PHP, MySQL, JavaScript" />
       <Bio />
 
       <h1>{ page.frontmatter.title }</h1>

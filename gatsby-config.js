@@ -5,7 +5,7 @@ module.exports = {
       name: `Макс Пронько`,
       summary: `- CEO компании Pronko Consulting, пишет о Веб разработке.`,
     },
-    description: `Developer and Code - авторский блог Макса Пронько`,
+    description: `Developer and Code - информационный ресурс для веб-программистов. Авторский блог Макса Пронько.`,
     siteUrl: `https://developerandcode.com/`,
     social: {
       twitter: `max_pronko`,

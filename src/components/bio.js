@@ -47,14 +47,14 @@ const Bio = () => {
         <p>
           <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          Автор <a target="_blank" rel="noreferrer" href={`https://www.youtube.com/channel/${social?.youtube || ``}`}>
-          YouTube
-        </a> канала о разработке.
+          Автор YouTube каналу <a target="_blank" rel="noreferrer" href={`https://www.youtube.com/channel/${social?.youtube || ``}`}>
+          Макс Пронько
+        </a>.
           {` `}
           <a target="_blank" rel="noreferrer" href={`https://t.me/${social?.telegram || ``}`}>
             Телеграм
           </a>
-          {` `}группа сайта.
+          {` `}група сайту.
         </p>
       )}
     </div>

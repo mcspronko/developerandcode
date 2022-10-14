@@ -3,9 +3,9 @@ module.exports = {
     title: `Developer and Code`,
     author: {
       name: `Макс Пронько`,
-      summary: `- Программист, CEO компании Pronko Consulting, пишет о Веб разработке.`,
+      summary: `- Програміст, CEO компанії Pronko Consulting, розбираємо Веб технології.`,
     },
-    description: `Developer and Code - информационный ресурс для веб-программистов. Авторский блог Макса Пронько.`,
+    description: `Developer and Code - інформаційний ресурс для веб-програмістів. Авторский блог Макса Пронько.`,
     siteUrl: `https://developerandcode.com/`,
     social: {
       twitter: `max_pronko`,

@@ -11,7 +11,7 @@ const PHPBlogPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Блог на PHP - Все видеоуроки. Веб разработка PHP, MySQL, JavaScript" />
+      <Seo title="PHP Блог - Всі відеоуроки. Веб разрабка PHP, MySQL, JavaScript" />
       <Bio />
 
       <h1>{ page.frontmatter.title }</h1>

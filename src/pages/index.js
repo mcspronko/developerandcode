@@ -13,20 +13,19 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <Seo title="Веб разработка PHP, MySQL, JavaScript" />
+        <Seo title="Веб розробка PHP, MySQL, JavaScript" />
         <Bio />
-        <p>
-         Постов на этом сайте нет.
-        </p>
       </Layout>
     )
   }
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Веб разработка PHP, MySQL, JavaScript" />
+      <Seo title="Веб розробка PHP, MySQL, JavaScript" />
       <Bio />
-      <p>Все видео: <Link to="/php-blog">Блог на PHP</Link></p>
+      <p>Привіт, мене звати Макс. Я створий цей сайт для того, щоб ділитись своїми знаннями у веб розробці. Я маю більше 15 років комерційного досвіду та 12 років роботи з екомерс платформою Adobe Commerce.</p>
+      <p>Нижче приведені посилання на відео-уроки де я розбираю створення сайту для ведення блогу за допомогою мови програмування PHP та бази данних MySQL.</p>
+      <p>Всі відео: <Link to="/php-blog">PHP Блог</Link></p>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug

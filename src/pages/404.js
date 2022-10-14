@@ -11,10 +11,10 @@ const NotFoundPage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="404: Страница не найдена" />
-      <h1>404: Страница не найдена</h1>
-      <p>Такая страница не существует, или была удалена.</p>
+      <h1>404: Сторінка не знайдена</h1>
+      <p>Така сторінка не існує</p>
       <p>
-        <Link to="/">На Главную</Link>
+        <Link to="/">На головну</Link>
       </p>
     </Layout>
   )

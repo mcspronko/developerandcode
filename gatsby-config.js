@@ -6,7 +6,7 @@ module.exports = {
       summary: `- Програміст, CEO компанії Pronko Consulting, розбираємо Веб технології.`,
     },
     description: `Developer and Code - інформаційний ресурс для веб-програмістів. Авторский блог Макса Пронько.`,
-    siteUrl: `https://developerandcode.com/`,
+    siteUrl: `https://www.developerandcode.com/`,
     social: {
       twitter: `max_pronko`,
       youtube: `UCB8LoPmC2MCVgohn_-gzU3A`,

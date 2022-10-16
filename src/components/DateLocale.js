@@ -1,10 +1,15 @@
-import date from 'date-and-time'
-import 'date-and-time/locale/uk'
-
-date.locale('uk')
-
 const DateLocale = (inputDate) => {
-  return date.format(new Date(Date.parse(inputDate)), 'MMM D, YYYY');
+  const month = [
+    'Січень', 'Лютий', 'Березень',
+    'Квітень', 'Травень', 'Червень',
+    'Липень', 'Серпень', 'Вересень',
+    'Жовтень', 'Листопад', 'Грудень'
+  ];
+
+  const date = new Date(Date.parse(inputDate))
+  const monthName = month[date.getMonth()];
+
+  return monthName + ' ' + date.getDate() + ', ' + date.getFullYear()
 }
 
 export default DateLocale

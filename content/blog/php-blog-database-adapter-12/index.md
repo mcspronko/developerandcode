@@ -27,7 +27,7 @@ composer require devcoder-xyz/php-dotenv
 
 Создаем файл `.env`, в котором будет находиться настройки подключения к базе данных. Мы не будем использовать файл `config/database.php`, так как настройки, которые могут меняться в зависимости от окружения, принято держать в файлах типа `.env`.
 
-```dotenv
+```
 DATABASE_DSN=mysql:host=127.0.0.1;dbname=blog_php
 DATABASE_USERNAME=root
 DATABASE_PASSWORD= 

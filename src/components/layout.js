@@ -25,9 +25,7 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        {new Date().getFullYear()} © Макс Пронько. Всі права захищені. Я використовую
-        {` `}
-        <a href="https://www.gatsbyjs.com" target="_blank" rel="noreferrer" >Gatsby</a> та <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">Netlify</a>
+        {new Date().getFullYear()} © Developer & Code. Всі права захищені.
       </footer>
     </div>
   )

@@ -12,14 +12,14 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <Seo title="Спільнота програмістів - Developer & Code" />
+        <Seo title="Спільнота програмістів" />
       </Layout>
     )
   }
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Спільнота програмістів - Developer & Code" />
+      <Seo title="Спільнота програмістів" />
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug

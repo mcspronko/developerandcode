@@ -21,10 +21,8 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Developer And Code" />
+      <Seo title="Спільнота програмістів - Developer & Code" />
       <Bio />
-      <p>Привіт, мене звати Макс. Я створий цей сайт для того, щоб ділитись своїми знаннями у веб розробці. Я маю більше 15 років комерційного досвіду та 12 років роботи з екомерс платформою Adobe Commerce.</p>
-      {/*<p>Нижче приведені посилання на відео-уроки де я розбираю створення сайту для ведення блогу за допомогою мови програмування PHP та бази данних MySQL.</p>*/}
       <p>Всі відео: <Link to="/php-blog">Блог на PHP</Link></p>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {

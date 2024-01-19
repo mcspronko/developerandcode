@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Developer and Code`,
+    title: `Developer & Code`,
     author: {
       name: `Макс Пронько`,
       summary: `- Програміст, CEO компанії Pronko Consulting, розбираємо Веб технології.`,
     },
-    description: `Developer and Code - інформаційний ресурс для веб-програмістів. Авторский блог Макса Пронько.`,
+    description: `Developer & Code - інформаційний ресурс для програмістів.`,
     siteUrl: `https://www.developerandcode.com/`,
     social: {
       twitter: `max_pronko`,

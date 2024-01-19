@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import DateLocale from "../components/DateLocale";
@@ -13,8 +12,7 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <Seo title="Веб розробка PHP, MySQL, JavaScript" />
-        <Bio />
+        <Seo title="Спільнота програмістів - Developer & Code" />
       </Layout>
     )
   }
@@ -22,8 +20,6 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="Спільнота програмістів - Developer & Code" />
-      <Bio />
-      <p>Всі відео: <Link to="/php-blog">Блог на PHP</Link></p>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -57,6 +53,7 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
+      <p><Link to="/php-blog">Розробка блогу на PHP</Link></p>
     </Layout>
   )
 }

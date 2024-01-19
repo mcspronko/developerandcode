@@ -25,7 +25,7 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        {new Date().getFullYear()} © Developer & Code. Всі права захищені.
+        {new Date().getFullYear()} © Developer & Code. Усі права захищені. Зроблено з &#10084;&#65039; для &#127482;&#127462;.
       </footer>
     </div>
   )

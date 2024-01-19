@@ -20,4 +20,4 @@ description: "Запрошую у світ мови програмування P
 
 Дякую за увагу.
 
-Приєднуйтесь до нашої спільноти у [Telegram](https://t.me/developerandcode).
+[Підписуйтеся на канал Спільнота програмістів - Developer & Code в телеграмі](https://t.me/developerandcode)

@@ -179,4 +179,4 @@ bin/magento setup:upgrade
 
 До речі, якщо цікаво навчитись розроблювати для платформи Magento, у мене є безліч відео на [YouTube каналі](https://www.youtube.com/@PronkoMax/videos), де я викладаю уроки для розробників. 
 
-[Підписуйтеся на канал Спільнота програмістів - Developer & Code в телеграмі](https://t.me/developerandcode)
+[Підписуйтеся на канал "Спільнота програмістів - Developer & Code" в телеграмі](https://t.me/developerandcode)

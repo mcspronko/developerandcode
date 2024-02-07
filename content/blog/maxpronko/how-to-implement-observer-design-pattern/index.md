@@ -163,4 +163,4 @@ class EventManager implements EventManagerInterface
 
 Клас `EventManager` також може мати альтернативну назву `Publisher`, а класів типу `Listener` (також можна назвати `Subscriber`) може бути стільки, скільки різних функцій та логіки необхідно системі.
 
-[Підписуйтеся на канал Спільнота програмістів - Developer & Code в телеграмі](https://t.me/developerandcode)
+[Підписуйтеся на канал "Спільнота програмістів - Developer & Code" в телеграмі](https://t.me/developerandcode)

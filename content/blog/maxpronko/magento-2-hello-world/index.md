@@ -84,4 +84,4 @@ bin/magento setup:upgrade
 
 Наступний крок, це створення функціональності, за яке дане Magento 2 розширення буде відповідати.
 
-[Підписуйтеся на канал Спільнота програмістів - Developer & Code в телеграмі](https://t.me/developerandcode)
+[Підписуйтеся на канал "Спільнота програмістів - Developer & Code" в телеграмі](https://t.me/developerandcode)

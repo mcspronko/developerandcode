@@ -18,4 +18,4 @@ description: "Розберемо, що таке Adobe Commerce (Magento) як п
 
 `youtube:https://www.youtube.com/embed/mf-9sQ8onSE`
 
-[Підписуйтеся на канал Спільнота програмістів - Developer & Code в телеграмі](https://t.me/developerandcode)
+[Підписуйтеся на канал "Спільнота програмістів - Developer & Code" в телеграмі](https://t.me/developerandcode)

@@ -93,3 +93,5 @@ public function getTotalCount(): int
 ```
 
 Скачать код данного урока можно по [ссылке](https://github.com/mcspronko/php-blog-lessons/tree/master/lesson-10).
+
+[Підписуйтеся на канал "Спільнота програмістів - Developer & Code" в телеграмі](https://t.me/developerandcode)

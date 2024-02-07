@@ -50,4 +50,4 @@ Python був офіційно розроблений у 1991 році та ке
 - [Top 5 Myths around Python Programming Language](https://www.analyticsinsight.net/top-5-myths-around-python-programming-language/)
 - [7 Python Programming Myths](https://pythonhowtoprogram.com/7-python-programming-myths/)
 
-[Підписуйтеся на канал Спільнота програмістів - Developer & Code в телеграмі](https://t.me/developerandcode)
+[Підписуйтеся на канал "Спільнота програмістів - Developer & Code" в телеграмі](https://t.me/developerandcode)

@@ -59,3 +59,5 @@ INSERT INTO post (title, url_key, content, description, published_date) VALUES (
 `youtube:https://www.youtube.com/embed/de5vsUxMp1g`
 
 Скачать код данного урока можно по [ссылке](https://github.com/mcspronko/php-blog-lessons/tree/master/lesson-5).
+
+[Підписуйтеся на канал "Спільнота програмістів - Developer & Code" в телеграмі](https://t.me/developerandcode)

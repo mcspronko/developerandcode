@@ -23,3 +23,5 @@ description: "В этом видео-уроке, мы создадим стра�
 `youtube:https://www.youtube.com/embed/dvXG4B0dowU`
 
 Скачать код данного урока можно по [ссылке](https://github.com/mcspronko/php-blog-lessons/tree/master/lesson-4).
+
+[Підписуйтеся на канал "Спільнота програмістів - Developer & Code" в телеграмі](https://t.me/developerandcode)

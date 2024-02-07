@@ -26,3 +26,5 @@ description: "В этом видео-уроке, мы познакомимся �
 `youtube:https://www.youtube.com/embed/ynYV48aKg28`
 
 Скачать код данного урока можно по [ссылке](https://github.com/mcspronko/php-blog-lessons/tree/master/lesson-2).
+
+[Підписуйтеся на канал "Спільнота програмістів - Developer & Code" в телеграмі](https://t.me/developerandcode)

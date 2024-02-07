@@ -93,4 +93,4 @@ python3 hello_python.py
 
 Що ще можна додати? Пропоную разом вивчати та розбиратися як працювати з Python.
 
-[Підписуйтеся на канал Спільнота програмістів - Developer & Code в телеграмі](https://t.me/developerandcode)
+[Підписуйтеся на канал "Спільнота програмістів - Developer & Code" в телеграмі](https://t.me/developerandcode)

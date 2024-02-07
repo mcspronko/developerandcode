@@ -115,3 +115,5 @@ $connection = $container->get(Database::class)->getConnection();
 ```
 
 Скачать код данного урока можно по [ссылке](https://github.com/mcspronko/php-blog/commit/66881a8e6244eb87ee06a44f622d09420c5b9c77).
+
+[Підписуйтеся на канал "Спільнота програмістів - Developer & Code" в телеграмі](https://t.me/developerandcode)
